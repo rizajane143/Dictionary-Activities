@@ -1,0 +1,15 @@
+# Create a dictionary of 3 people
+phonebook = {
+    "Alice": "0912-345-6789",
+    "Bob": "0923-456-7890",
+    "Charlie": "0934-567-8901"
+}
+
+# Ask user for a name
+name_search = input("Enter a name to find the number: ")
+
+# Print the number (with a check to see if the name exists)
+if name_search in phonebook:
+    print(f"The number for {name_search} is: {phonebook[name_search]}")
+else:
+    print("Name not found in phonebook.")
