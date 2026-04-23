@@ -1,0 +1,8 @@
+student = {
+    "name": "Ana",
+    "age": 20,
+    "course": "IT"
+}
+
+# The key for "Ana" is "name"
+print(student["name"]) # Should print Ana
