@@ -1,0 +1,9 @@
+student = {"name": "Ana", "age": 20}
+
+# 1. Add "grade": 95
+student["grade"] = 95
+
+# 2. Change age to 21
+student["age"] = 21
+
+print(student)
